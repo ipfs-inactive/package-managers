@@ -10,3 +10,7 @@ Wikipedia: https://en.wikipedia.org/wiki/Composer_(software)
 ## Clients
 
 - composer
+
+## Related companies
+
+- [Packagist](https://packagist.com/)

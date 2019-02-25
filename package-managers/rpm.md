@@ -16,3 +16,7 @@ Wikipedia: https://en.wikipedia.org/wiki/RPM_Package_Manager
 - up2date
 - Zypper
 - apt-rpm
+
+## Related companies
+
+- [Red Hat](https://redhat.com)

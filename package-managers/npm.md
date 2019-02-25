@@ -13,3 +13,7 @@ Wikipedia: https://en.wikipedia.org/wiki/Npm_(software)
 - yarn
 - pnpm
 - ied
+
+## Related companies
+
+- [npm inc](https://www.npmjs.com/about)

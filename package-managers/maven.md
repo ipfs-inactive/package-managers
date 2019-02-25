@@ -22,3 +22,8 @@ Wikipedia: https://en.wikipedia.org/wiki/Apache_Maven
 - SBT
 - Leiningen (clojure)
 - Boot (clojure)
+
+## Related companies
+
+- [Sonatype](https://www.sonatype.com/)
+- [The Apache Software Foundation](https://www.apache.org/) - Non-profit

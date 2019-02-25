@@ -10,3 +10,7 @@ Wikipedia: N/A
 ## Clients
 
 - cargo
+
+## Related companies
+
+- [Mozilla](https://mozilla.org/)

@@ -11,3 +11,7 @@ Wikipedia: https://en.wikipedia.org/wiki/NuGet
 
 - nuget
 - paket
+
+## Related companies
+
+- [Microsoft](https://www.microsoft.com)

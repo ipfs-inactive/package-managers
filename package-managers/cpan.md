@@ -13,3 +13,7 @@ Wikipedia: https://en.wikipedia.org/wiki/CPAN
 - CPANPLUS
 - only
 - carton
+
+## Related companies
+
+- [The Perl Foundation](https://www.perlfoundation.org/)

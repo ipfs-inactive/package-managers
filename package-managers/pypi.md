@@ -14,3 +14,7 @@ Wikipedia: https://en.wikipedia.org/wiki/Python_Package_Index
 - Conda
 - Pipenv
 - poetry
+
+## Related companies
+
+- [Python Software Foundation](https://www.python.org/psf/) - Non-profit

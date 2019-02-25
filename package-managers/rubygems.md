@@ -11,3 +11,8 @@ Wikipedia: https://en.wikipedia.org/wiki/RubyGems
 
 - gem
 - bundler
+
+## Related companies
+
+- [Ruby Central](http://rubycentral.org/) - Non-profit
+- [Ruby Together](https://rubytogether.org/) - Non-profit
