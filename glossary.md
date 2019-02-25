@@ -76,7 +76,7 @@ A glossary of terms relating to package management.
   A transitive dependency is one that wasn't directly depended on by a package but instead the dependencies of one of a package's declared dependencies.
 
 ## Version Specifier
-  The version component of a Dependency Specifier. It may be in the form of a single specific version or an acceptable range of versions For example, the “>=1.3” portion of “foo>=1.3”
+  The version component of a Dependency Specifier. It may be in the form of a single specific version or an acceptable range of versions (For example, the “>=1.3” portion of “foo>=1.3”)
 
 ## Versioning scheme
   The format and meaning applied to each release version number, often in the format X.Y.Z. Two popular schemes are https://semver.org and http://calver.org.
