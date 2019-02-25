@@ -5,12 +5,12 @@ Wikipedia: https://en.wikipedia.org/wiki/RubyGems
 
 ## Public Registries
 
-- rubygems.org
+- [rubygems.org](https://rubygems.org)
 
 ## Clients
 
-- gem
-- bundler
+- [gem](https://github.com/rubygems/rubygems)
+- [bundler](https://github.com/bundler/bundler)
 
 ## Related companies
 

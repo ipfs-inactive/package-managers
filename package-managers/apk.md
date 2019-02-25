@@ -5,7 +5,7 @@ Wiki: https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management
 
 ## Public Registries
 
-- alpinelinux.org
+- [alpinelinux.org](https://alpinelinux.org/)
 
 ## Clients
 

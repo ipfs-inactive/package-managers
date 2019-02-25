@@ -5,15 +5,15 @@ Wikipedia: https://en.wikipedia.org/wiki/Python_Package_Index
 
 ## Public Registries
 
-- pypi.org
+- [pypi.org](https://pypi.org/)
 
 ## Clients
 
-- pip
-- easy_install
-- Conda
-- Pipenv
-- poetry
+- [pip](https://en.wikipedia.org/wiki/Pip_(package_manager))
+- [easy_install](https://en.wikipedia.org/wiki/Setuptools#EasyInstall)
+- [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager))
+- [Pipenv](https://pipenv.readthedocs.io/en/latest/)
+- [poetry](https://poetry.eustace.io/)
 
 ## Related companies
 

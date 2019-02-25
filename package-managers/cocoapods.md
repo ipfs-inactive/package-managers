@@ -5,8 +5,8 @@ Wikipedia: https://en.wikipedia.org/wiki/CocoaPods
 
 ## Public Registries
 
-- cocoapods.org
+- [cocoapods.org](https://github.com/CocoaPods/Specs)
 
 ## Clients
 
-- cocoapods
+- [cocoapods](https://github.com/CocoaPods/CocoaPods)

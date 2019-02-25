@@ -5,11 +5,11 @@ Wikipedia: https://en.wikipedia.org/wiki/Composer_(software)
 
 ## Public Registries
 
-- packagist.org
+- [packagist.org](https://packagist.org/)
 
 ## Clients
 
-- composer
+- [composer](https://getcomposer.org/)
 
 ## Related companies
 

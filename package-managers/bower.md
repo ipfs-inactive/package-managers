@@ -5,8 +5,8 @@ Wikipedia: N/A
 
 ## Public Registries
 
-- bower.io
+- [bower.io](https://bower.io/)
 
 ## Clients
 
-- bower
+- [bower](https://github.com/bower/bower)

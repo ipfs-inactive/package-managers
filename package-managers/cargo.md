@@ -5,11 +5,11 @@ Wikipedia: N/A
 
 ## Public Registries
 
-- crates.io
+- [crates.io](https://crates.io/)
 
 ## Clients
 
-- cargo
+- [cargo](https://github.com/rust-lang/cargo/)
 
 ## Related companies
 

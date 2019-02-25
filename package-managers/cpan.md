@@ -5,7 +5,7 @@ Wikipedia: https://en.wikipedia.org/wiki/CPAN
 
 ## Public Registries
 
-- cpan.org
+- [cpan.org](https://www.cpan.org/)
 
 ## Clients
 

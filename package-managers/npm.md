@@ -9,10 +9,10 @@ Wikipedia: https://en.wikipedia.org/wiki/Npm_(software)
 
 ## Clients
 
-- npm
-- yarn
-- pnpm
-- ied
+- [npm](https://github.com/npm/cli)
+- [yarn](https://github.com/yarnpkg/yarn)
+- [pnpm](https://github.com/pnpm/pnpm)
+- [ied](https://github.com/alexanderGugel/ied)
 
 ## Related companies
 
