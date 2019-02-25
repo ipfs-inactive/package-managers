@@ -21,3 +21,4 @@ Grouped by usage category and package format
 - [dpkg](dpkg.md)
 - [rpm](rpm.md)
 - [apk](apk.md)
+- [Homebrew](homebrew.md)
