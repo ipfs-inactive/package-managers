@@ -21,3 +21,7 @@ and many more: https://github.com/golang/go/wiki/PackageManagementTools#pkg-copy
 ## Related companies
 
 - [Google](https://google.com/)
+
+## Existing IPFS support
+
+- [gx](https://github.com/whyrusleeping/gx)

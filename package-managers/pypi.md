@@ -18,3 +18,7 @@ Wikipedia: https://en.wikipedia.org/wiki/Python_Package_Index
 ## Related companies
 
 - [Python Software Foundation](https://www.python.org/psf/) - Non-profit
+
+## Existing IPFS support
+
+- [dpip](https://github.com/AuHau/dpip)

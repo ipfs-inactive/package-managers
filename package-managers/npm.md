@@ -17,3 +17,8 @@ Wikipedia: https://en.wikipedia.org/wiki/Npm_(software)
 ## Related companies
 
 - [npm inc](https://www.npmjs.com/about)
+
+## Existing IPFS support
+
+- [npm-on-ipfs](https://github.com/ipfs-shipyard/npm-on-ipfs)
+- [EverythingStays](http://everythingstays.com/)
