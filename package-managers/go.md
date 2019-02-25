@@ -25,3 +25,7 @@ and many more: https://github.com/golang/go/wiki/PackageManagementTools#pkg-copy
 ## Existing IPFS support
 
 - [gx](https://github.com/whyrusleeping/gx)
+
+## Podcasts
+
+- [Go dep with Sam Boyer](https://manifest.fm/4)

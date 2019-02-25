@@ -20,3 +20,7 @@ Wikipedia: https://en.wikipedia.org/wiki/RubyGems
 ## Existing IPFS support
 
 - https://github.com/pr0d1r2/ipfs_rubygems_mirror_test
+
+## Podcasts
+
+- [Rubygems with André Arko](https://manifest.fm/3)

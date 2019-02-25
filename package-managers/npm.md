@@ -22,3 +22,7 @@ Wikipedia: https://en.wikipedia.org/wiki/Npm_(software)
 
 - [npm-on-ipfs](https://github.com/ipfs-shipyard/npm-on-ipfs)
 - [EverythingStays](http://everythingstays.com/)
+
+## Podcasts
+
+- [Typosquatting with Adam Baldwin](https://manifest.fm/9)

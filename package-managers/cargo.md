@@ -14,3 +14,7 @@ Wikipedia: N/A
 ## Related companies
 
 - [Mozilla](https://mozilla.org/)
+
+## Podcasts
+
+- [Cargo and Crates.io with Carol (Nichols || Goulding)](https://manifest.fm/8)

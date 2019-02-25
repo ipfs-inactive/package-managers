@@ -11,3 +11,7 @@ Wiki: https://en.wikipedia.org/wiki/Homebrew_(package_management_software)
 ## Clients
 
 - brew
+
+## Podcasts
+
+- [Homebrew with Mike McQuaid](https://manifest.fm/1)

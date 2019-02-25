@@ -27,3 +27,8 @@ Wikipedia: https://en.wikipedia.org/wiki/Apache_Maven
 
 - [Sonatype](https://www.sonatype.com/)
 - [The Apache Software Foundation](https://www.apache.org/) - Non-profit
+
+## Podcasts
+
+- [Maven with Brian Fox](https://manifest.fm/6)
+- [Clojars with Daniel Compton ](https://manifest.fm/12)

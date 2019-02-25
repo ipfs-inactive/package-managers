@@ -10,3 +10,7 @@ Wikipedia: https://en.wikipedia.org/wiki/CocoaPods
 ## Clients
 
 - [cocoapods](https://github.com/CocoaPods/CocoaPods)
+
+## Podcasts
+
+- [CocoaPods with Orta Therox](https://manifest.fm/2)
