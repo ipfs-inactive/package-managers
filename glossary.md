@@ -27,7 +27,7 @@ A glossary of terms relating to package management.
   A format used to install packages from a Registry Index. For example, “foo>=1.3” is a dependency specifier, where “foo” is the project name, and the “>=1.3” portion is the Version Specifier
 
 ## Distribution Package
-  A versioned archive file that contains Python packages, modules, and other resource files that are used to distribute a Release. The archive file is what an end-user will download from the internet and install.
+  A versioned archive file that contains packages, modules, and other resource files that are used to distribute a Release. The archive file is what an end-user will download from the internet and install.
 
   A distribution package is more commonly referred to with the single words “package” or “distribution”, but this guide may use the expanded term when more clarity is needed to prevent confusion with an Import Package (which is also commonly called a “package”) or another kind of distribution (e.g. a Linux distribution or a language distribution), which are often referred to with the single term “distribution”.
 
