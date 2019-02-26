@@ -22,3 +22,4 @@ Grouped by usage category and package format
 - [rpm](rpm.md)
 - [apk](apk.md)
 - [Homebrew](homebrew.md)
+- [Nix](nix.md)
