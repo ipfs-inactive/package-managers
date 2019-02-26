@@ -1,6 +1,7 @@
 # Go
 
 Primary language: Go
+
 Wikipedia: https://en.wikipedia.org/wiki/Go_(programming_language)#Package_system
 
 ## Public Registries

@@ -1,6 +1,7 @@
 # Cargo
 
 Primary language: Rust
+
 Wikipedia: N/A
 
 ## Public Registries

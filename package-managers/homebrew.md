@@ -1,6 +1,7 @@
 # Homebrew
 
-Distributions: Alpine
+Distributions: MacOS, Linux
+
 Wiki: https://en.wikipedia.org/wiki/Homebrew_(package_management_software)
 
 ## Public Registries

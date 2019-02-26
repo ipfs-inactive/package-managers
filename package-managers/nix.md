@@ -1,6 +1,7 @@
 # Nix
 
 Distributions: Cross-Platform, NixOS
+
 Wikipedia: https://en.wikipedia.org/wiki/Nix_package_manager
 
 ## Public Registries

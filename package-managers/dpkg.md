@@ -1,6 +1,7 @@
 # dpkg
 
 Distributions: Debian, Ubuntu
+
 Wikipedia: https://en.wikipedia.org/wiki/Dpkg
 
 ## Public Registries

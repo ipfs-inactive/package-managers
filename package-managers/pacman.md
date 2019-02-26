@@ -1,6 +1,7 @@
 # pacman
 
 Distributions: Arch
+
 Wiki: https://wiki.archlinux.org/index.php/Pacman
 
 ## Public Registries

@@ -1,6 +1,7 @@
 # Maven
 
 Primary language: Java
+
 Wikipedia: https://en.wikipedia.org/wiki/Apache_Maven
 
 ## Public Registries
