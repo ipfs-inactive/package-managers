@@ -9,7 +9,7 @@ A glossary of terms relating to package management.
   A specific kind of Built Distribution that contains compiled extensions.
 
 ## Built Distribution
-  A Distribution format containing files and metadata that only need to be moved to the correct location on the target system, to be installed.
+  A Distribution format containing files and metadata that only need to be moved to the correct location on the target system, to be installed. For example, [Wheels](https://www.python.org/dev/peps/pep-0427/) in Python
 
 ## Client
   The locally installed software for installing and managing packages, usually provided as a command line interface. Often communicates with one or more registries to find package and release metadata and to download releases.
