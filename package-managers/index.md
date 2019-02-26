@@ -23,4 +23,5 @@ Grouped by usage category and package format
 - [apk](apk.md)
 - [Homebrew](homebrew.md)
 - [Nix](nix.md)
+- [Guix](guix.md)
 - [Pacman](pacman.md)
