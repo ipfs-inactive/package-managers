@@ -25,3 +25,4 @@ Grouped by usage category and package format
 - [Nix](nix.md)
 - [Guix](guix.md)
 - [Pacman](pacman.md)
+- [Portage](portage.md)
