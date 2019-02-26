@@ -10,7 +10,7 @@ Wikipedia: https://en.wikipedia.org/wiki/NuGet
 
 ## Clients
 
-- [nuget](https://en.wikipedia.org/wiki/NuGet)
+- [nuget](https://github.com/NuGet/NuGet.Client)
 - [paket](https://fsprojects.github.io/Paket/)
 
 ## Related companies

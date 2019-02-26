@@ -10,12 +10,11 @@ N/A
 
 ## Clients
 
-- go-get
-- dep
-- gx
-- Govendor
-- godm
-- glide
+- [go-get](https://golang.org/cmd/go/#hdr-Module_aware_go_get)
+- [dep](https://github.com/golang/dep)
+- [gx](https://github.com/whyrusleeping/gx)
+- [Govendor](https://github.com/kardianos/govendor)
+- [glide](https://github.com/Masterminds/glide)
 
 and many more: https://github.com/golang/go/wiki/PackageManagementTools#pkg-copy-built-using-gopath-modification-supports-fetching-specific-version
 

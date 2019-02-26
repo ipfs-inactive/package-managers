@@ -23,3 +23,4 @@ Wikipedia: https://en.wikipedia.org/wiki/Python_Package_Index
 ## Existing IPFS support
 
 - [dpip](https://github.com/AuHau/dpip)
+- https://github.com/ipfs/notes/issues/28

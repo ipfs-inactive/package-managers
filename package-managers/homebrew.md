@@ -11,7 +11,7 @@ Wiki: https://en.wikipedia.org/wiki/Homebrew_(package_management_software)
 
 ## Clients
 
-- brew
+- [brew](https://github.com/Homebrew/brew)
 
 ## Podcasts
 

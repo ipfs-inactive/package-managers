@@ -10,10 +10,10 @@ Wikipedia: https://en.wikipedia.org/wiki/CPAN
 
 ## Clients
 
-- cpan
-- CPANPLUS
-- only
-- carton
+- [CPAN](https://metacpan.org/pod/CPAN)
+- [CPANPLUS](https://metacpan.org/pod/CPANPLUS)
+- [only](https://metacpan.org/pod/only)
+- [carton](https://metacpan.org/pod/Carton)
 
 ## Related companies
 
