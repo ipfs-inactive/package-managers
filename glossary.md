@@ -40,7 +40,7 @@ A glossary of terms relating to package management.
   An import package is more commonly referred to with the single word “package”, but this guide will use the expanded term when more clarity is needed to prevent confusion with a Distribution Package which is also commonly called a “package”.
 
 ## Lockfile
-  The file where a successfully resolve dependency tree is recorded so that it can be recreated at a later date.
+  The file where a successfully resolved dependency tree is recorded so that it can be recreated at a later date.
 
 ## Manifest
   The file where a package's required dependencies are declared, often with version specifiers.
