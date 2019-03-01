@@ -16,3 +16,7 @@ Wiki: https://en.wikipedia.org/wiki/Homebrew_(package_management_software)
 ## Podcasts
 
 - [Homebrew with Mike McQuaid](https://manifest.fm/1)
+
+## Existing IPFS support
+
+- https://github.com/protocol/package-managers/issues/12
