@@ -14,3 +14,7 @@ Wikipedia: https://en.wikipedia.org/wiki/Dpkg
 - [apt](https://en.wikipedia.org/wiki/APT_(Debian))
 - [aptitude](https://en.wikipedia.org/wiki/Aptitude_(software))
 - [dselect](https://en.wikipedia.org/wiki/Dselect)
+
+## Existing IPFS support
+
+- https://github.com/JaquerEspeis/apt-transport-ipfs
