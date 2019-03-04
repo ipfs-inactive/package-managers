@@ -1,6 +1,9 @@
 # package-managers
 🔒 Package Managers Working Group (Private Space)
 
+- [Package Management Glossary](glossary.md)
+- [Package Manager list](package-managers)
+
 ## Team
 - [@andrew](http://github.com/andrew)
 - [@achingbrain](https://github.com/achingbrain)
