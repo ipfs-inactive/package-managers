@@ -22,6 +22,7 @@ Grouped by usage category and package format
 - [rpm](rpm.md)
 - [apk](apk.md)
 - [Homebrew](homebrew.md)
+- [Spack](spack.md)
 - [Nix](nix.md)
 - [Guix](guix.md)
 - [Pacman](pacman.md)
