@@ -4,6 +4,8 @@ Distributions: Red Hat, CentOS, Fedora, NetWare, AIX
 
 Wikipedia: https://en.wikipedia.org/wiki/RPM_Package_Manager
 
+Categorization: System level, Multi-Registry, File-system Based
+
 ## Public Registries
 
 - [centos.org](https://www.centos.org/)

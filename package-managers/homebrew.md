@@ -4,6 +4,8 @@ Distributions: MacOS, Linux
 
 Wiki: https://en.wikipedia.org/wiki/Homebrew_(package_management_software)
 
+Categorization: System level, Portable Registry, Git Based
+
 ## Public Registries
 
 - https://github.com/Homebrew/homebrew-core

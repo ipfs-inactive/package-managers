@@ -4,6 +4,8 @@ Distributions: Cross-Platform, NixOS
 
 Wikipedia: https://en.wikipedia.org/wiki/Nix_package_manager
 
+Categorization: System level, Portable Registry, Git based
+
 ## Public Registries
 
 - [nixpkgs](https://github.com/NixOS/nixpkgs)

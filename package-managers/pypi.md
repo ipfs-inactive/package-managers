@@ -4,6 +4,8 @@ Primary language: Python
 
 Wikipedia: https://en.wikipedia.org/wiki/Python_Package_Index
 
+Categorization: Language level, Centralized Registry, Database based
+
 ## Public Registries
 
 - [pypi.org](https://pypi.org/)

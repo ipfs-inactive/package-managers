@@ -4,6 +4,8 @@ Primary language: C#
 
 Wikipedia: https://en.wikipedia.org/wiki/NuGet
 
+Categorization: Language level, Centralized Registry, Database based
+
 ## Public Registries
 
 - [nuget.org](https://www.nuget.org/)

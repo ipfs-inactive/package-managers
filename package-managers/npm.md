@@ -4,6 +4,8 @@ Primary language: JavaScript
 
 Wikipedia: https://en.wikipedia.org/wiki/Npm_(software)
 
+Categorization: Language level, Centralized Registry, Database based
+
 ## Public Registries
 
 - https://npmjs.org

@@ -2,7 +2,9 @@
 
 Distributions: Linux, MacOS, and many supercomputers
 
-Categorization: Portable Registry, Git Based
+Wikipedia: N/A
+
+Categorization: System level, Portable Registry, Git Based
 
 ## Public Registries
 

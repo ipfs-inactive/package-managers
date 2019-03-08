@@ -4,6 +4,8 @@ Distributions: Gentoo, Chrome OS
 
 Wikipedia: https://en.wikipedia.org/wiki/Portage_(software)
 
+Categorization: System level, Multi-Registry, File-system Based
+
 ## Public Registries
 
 - [packages.gentoo.org/](https://packages.gentoo.org/)

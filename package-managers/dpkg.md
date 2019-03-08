@@ -4,6 +4,8 @@ Distributions: Debian, Ubuntu
 
 Wikipedia: https://en.wikipedia.org/wiki/Dpkg
 
+Categorization: System level, Multi-Registry, File-system Based
+
 ## Public Registries
 
 - [debian.org](https://www.debian.org/mirror/list)

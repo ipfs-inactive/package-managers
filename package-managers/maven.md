@@ -4,6 +4,8 @@ Primary language: Java
 
 Wikipedia: https://en.wikipedia.org/wiki/Apache_Maven
 
+Categorization: Language level, Multi-Registry, File-system Based
+
 ## Public Registries
 
 - [Maven Central](https://repo.maven.apache.org/maven2/)

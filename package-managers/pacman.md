@@ -4,6 +4,8 @@ Distributions: Arch
 
 Wiki: https://wiki.archlinux.org/index.php/Pacman
 
+Categorization: System level, Multi-Registry, File-system Based
+
 ## Public Registries
 
 - [archlinux.org](https://www.archlinux.org/packages/)

@@ -4,6 +4,8 @@ Primary language: Perl
 
 Wikipedia: https://en.wikipedia.org/wiki/CPAN
 
+Categorization: Language level, Multi-Registry, File-system Based
+
 ## Public Registries
 
 - [cpan.org](https://www.cpan.org/)

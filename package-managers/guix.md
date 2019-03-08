@@ -4,6 +4,8 @@ Distributions: GuixSD, GNU
 
 Wikipedia: https://en.wikipedia.org/wiki/GNU_Guix
 
+Categorization: System level
+
 ## Public Registries
 
 - [gnu.org](https://www.gnu.org/software/guix/packages/)

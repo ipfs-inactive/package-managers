@@ -4,6 +4,8 @@ Primary language: Rust
 
 Wikipedia: N/A
 
+Categorization: Language level, Portable Registry, Git+Database Based
+
 ## Public Registries
 
 - [crates.io](https://crates.io/)

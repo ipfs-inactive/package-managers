@@ -4,6 +4,8 @@ Primary language: Ruby
 
 Wikipedia: https://en.wikipedia.org/wiki/RubyGems
 
+Categorization: Language level, Centralized Registry, Database based
+
 ## Public Registries
 
 - [rubygems.org](https://rubygems.org)
