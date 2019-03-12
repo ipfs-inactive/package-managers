@@ -61,17 +61,3 @@ A glossary of terms relating to package management.
 
 ## Virtual Environment
   An isolated environment that allows packages to be installed for use by a particular application, rather than being installed system wide.
-
-# Categorizations
-
-## Centralized Registry
-  Client, tooling and community are focused primarily on a single registry and namespace for all packages, public mirrors and alternative registries are infrequent. Examples: npm, bower, rubygems, pypi
-
-## Portable Registry
-  Usually similar to Centralized Registry but with one standout feature, users keep a local copy of the whole registry, often as a git repository, which is regularly synced by the users. Examples: Homebrew, Cocoapods, Cargo
-
-## Multi-Registry
-  Clients are designed to be used with multiple primary registries, users have choices of multiple registries to publish to and mirrors are frequently used. Examples: Maven, apt, rpm, pacman
-
-## Registry-less
-  There is no concept of a registry or namespace where packages are published to, clients directly link to tarballs or git repositories on any urls, resolved with DNS. Examples: Go, carthage, swiftpm

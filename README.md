@@ -2,6 +2,7 @@
 🔒 Package Managers Working Group (Private Space)
 
 - [Package Management Glossary](glossary.md)
+- [Package Management Categories](categories.md)
 - [Package Manager list](package-managers)
 
 ## Team
