@@ -5,6 +5,12 @@
 - [Package Management Categories](categories.md)
 - [Package Manager list](package-managers)
 
+## Blockers
+
+Current issues with IPFS that are limiting package manager adoption today
+
+- [Blockers](blockers.md)
+
 ## Team
 - [@andrew](http://github.com/andrew)
 - [@achingbrain](https://github.com/achingbrain)
