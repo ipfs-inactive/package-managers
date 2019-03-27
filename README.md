@@ -25,3 +25,7 @@ Tuesdays at 4:30pm UTC / 8:30am PST
 - [IPFS 2019 Roadmap: Package Manager Goal](https://github.com/ipfs/roadmap#-package-managers-d1-e5-i3)
 - [Package Manager Categorization](https://docs.google.com/document/d/1WwekeTJ4tAPjLVDnfIt-dXrgu7vGD29T07EQWN2_G-A/edit#heading=h.kgd4ngectp6q)
 - [Draft Package Manager Roadmap](https://docs.google.com/document/d/1-HtUiRpMzYq9to56ShCGyCr-NCZ6TR49Zl-b5HHJdm0/edit#heading=h.5zpzsg32y0bx)
+
+## License
+
+All documents are licensed under the [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license © 2019 Protocol Labs Inc. Any code is under an [MIT license](LICENSE).
