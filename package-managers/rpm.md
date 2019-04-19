@@ -1,6 +1,6 @@
 # RPM
 
-Distributions: Red Hat, CentOS, Fedora, NetWare, AIX
+Distributions: Red Hat, CentOS, Fedora, NetWare, AIX, openSUSE
 
 Wikipedia: https://en.wikipedia.org/wiki/RPM_Package_Manager
 
@@ -11,6 +11,7 @@ Categorization: System level, Multi-Registry, File-system Based
 - [centos.org](https://www.centos.org/)
 - [fedoraproject.org](https://getfedora.org/)
 - [redhat.com](https://www.redhat.com/)
+- [opensuse.org](https://www.opensuse.org/)
 
 ## Clients
 
@@ -23,3 +24,4 @@ Categorization: System level, Multi-Registry, File-system Based
 ## Related companies
 
 - [Red Hat](https://redhat.com)
+- [SUSE](https://www.suse.com)
