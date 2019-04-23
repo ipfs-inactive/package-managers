@@ -27,3 +27,4 @@ Grouped by usage category and package format
 - [Guix](guix.md)
 - [Pacman](pacman.md)
 - [Portage](portage.md)
+- [Chocolatey](chocolatey.md)
