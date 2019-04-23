@@ -29,3 +29,4 @@ Grouped by usage category and package format
 - [Portage](portage.md)
 - [Chocolatey](chocolatey.md)
 - [F-Droid](f-droid.md)
+- [Helm](helm.md)
