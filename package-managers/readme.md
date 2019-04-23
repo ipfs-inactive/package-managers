@@ -28,3 +28,4 @@ Grouped by usage category and package format
 - [Pacman](pacman.md)
 - [Portage](portage.md)
 - [Chocolatey](chocolatey.md)
+- [F-Droid](f-droid.md)
