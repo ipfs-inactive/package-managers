@@ -30,3 +30,4 @@ Grouped by usage category and package format
 - [Chocolatey](chocolatey.md)
 - [F-Droid](f-droid.md)
 - [Helm](helm.md)
+- [Scoop](scoop.md)
