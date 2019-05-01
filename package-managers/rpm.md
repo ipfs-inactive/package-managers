@@ -25,3 +25,7 @@ Categorization: System level, Multi-Registry, File-system Based
 
 - [Red Hat](https://redhat.com)
 - [SUSE](https://www.suse.com)
+
+## Existing IPFS support
+
+- [experimental openSUSE mirror via IPFS](https://lizards.opensuse.org/2019/04/03/experimental-opensuse-mirror-via-ipfs/)
