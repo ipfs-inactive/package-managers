@@ -1,11 +1,11 @@
-# Package Managers Working Group
+# Package Managers Special Interest Group
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs--package--managers-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs-package-managers)
 
 
-IPFS Package Managers Working Group
+IPFS Package Managers Special Interest Group
 
 - [Package Management Glossary](glossary.md)
 - [Package Management Categories](categories.md)
