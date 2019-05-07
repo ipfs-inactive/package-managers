@@ -19,7 +19,7 @@ Package managers that already have some form of integration with ipfs underway:
 - [f-droid](package-managers/f-droid.md#existing-ipfs-support)
 - [go](package-managers/go.md#existing-ipfs-support)
 - [guix](package-managers/guix.md#existing-ipfs-support)
-- [homebrew](package-managers/hombrew.md#existing-ipfs-support)
+- [homebrew](package-managers/homebrew.md#existing-ipfs-support)
 - [nix](package-managers/nix.md#existing-ipfs-support)
 - [npm](package-managers/npm.md#existing-ipfs-support)
 - [pacman](package-managers/pacman.md#existing-ipfs-support)
