@@ -23,7 +23,7 @@ Current issues with IPFS that are limiting package manager adoption today
 - [@jessicaschilling](https://github.com/jessicaschilling)
 
 ## Weekly Sync
-Tuesdays at 4:30pm UTC / 8:30am PST
+Tuesdays at 3:30pm UTC / 4:30pm BST / 7:30am PST
 
 📞 Zoom: https://protocol.zoom.us/j/5011724290
 
