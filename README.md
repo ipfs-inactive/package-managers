@@ -11,6 +11,23 @@ IPFS Package Managers Special Interest Group
 - [Package Management Categories](categories.md)
 - [Package Manager list](package-managers)
 
+## Integrations
+
+Package managers that already have some form of integration with ipfs underway:
+
+- [dpkg](package-managers/dpkg.md#existing-ipfs-support)
+- [f-droid](package-managers/f-droid.md#existing-ipfs-support)
+- [go](package-managers/go.md#existing-ipfs-support)
+- [guix](package-managers/guix.md#existing-ipfs-support)
+- [homebrew](package-managers/hombrew.md#existing-ipfs-support)
+- [nix](package-managers/nix.md#existing-ipfs-support)
+- [npm](package-managers/npm.md#existing-ipfs-support)
+- [pacman](package-managers/pacman.md#existing-ipfs-support)
+- [portage](package-managers/portage.md#existing-ipfs-support)
+- [pypi](package-managers/pypi.md#existing-ipfs-support)
+- [rpm](package-managers/rpm.md#existing-ipfs-support)
+- [rubygems](package-managers/rubygems.md#existing-ipfs-support)
+
 ## Blockers
 
 Current issues with IPFS that are limiting package manager adoption today
