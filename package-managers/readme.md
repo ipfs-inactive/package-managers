@@ -31,3 +31,4 @@ Grouped by usage category and package format
 - [F-Droid](f-droid.md)
 - [Helm](helm.md)
 - [Scoop](scoop.md)
+- [wapm](wapm.md)

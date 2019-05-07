@@ -27,6 +27,7 @@ Package managers that already have some form of integration with ipfs underway:
 - [pypi](package-managers/pypi.md#existing-ipfs-support)
 - [rpm](package-managers/rpm.md#existing-ipfs-support)
 - [rubygems](package-managers/rubygems.md#existing-ipfs-support)
+- [wapm](package-managers/wapm.md#existing-ipfs-support)
 
 ## Blockers
 
