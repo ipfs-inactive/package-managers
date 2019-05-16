@@ -22,3 +22,6 @@ Mounting MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse) a
 
 Alternatively there could be a ipfs rysnc command line tool that could talk directly with rsync server protocol.
 
+## IPFS (go-ipfs) may kill routers
+
+https://github.com/ipfs/go-ipfs/issues/3320
