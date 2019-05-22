@@ -49,6 +49,7 @@ Tuesdays at 3:30pm UTC / 4:30pm BST / 7:30am PST
 - [IPFS 2019 Roadmap: Package Manager Goal](https://github.com/ipfs/roadmap#-package-managers-d1-e5-i3)
 - [Package Manager Categorization](https://docs.google.com/document/d/1WwekeTJ4tAPjLVDnfIt-dXrgu7vGD29T07EQWN2_G-A/edit#heading=h.kgd4ngectp6q)
 - [Draft Package Manager Roadmap](https://docs.google.com/document/d/1-HtUiRpMzYq9to56ShCGyCr-NCZ6TR49Zl-b5HHJdm0/edit#heading=h.5zpzsg32y0bx)
+- [Package Managers on ipfs/notes](https://github.com/ipfs/notes/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22package+managers%22)
 
 ## License
 
