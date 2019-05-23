@@ -12,13 +12,13 @@ Filestore expects files to be immutable once added, so rsyncing updates to exist
 
 Adding a directory of files to MFS means calling out to `ipfs files write` for every file, ideally there should be one command to write a directory of files to MFS.
 
-Alternative approach may be to mount MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse) 
+Alternative approach may be to mount MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse)
 
 ### Updating rolling changes requires rehashing all files
 
-If there is a regular cron job downloading updates to a mirror with rsync, there's currently no easy way to only re-add the files that have been added/changed/removed without rehashing every file in the whole mirror directory. 
+If there is a regular cron job downloading updates to a mirror with rsync, there's currently no easy way to only re-add the files that have been added/changed/removed without rehashing every file in the whole mirror directory.
 
-Mounting MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse) and rsyncing directly onto fuse may be one approach. 
+Mounting MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse) and rsyncing directly onto fuse may be one approach.
 
 Alternatively there could be a ipfs rysnc command line tool that could talk directly with rsync server protocol.
 
