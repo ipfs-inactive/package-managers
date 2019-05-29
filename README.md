@@ -40,7 +40,7 @@ Package managers that already have some form of integration with ipfs underway:
 
 Current issues with IPFS that are limiting package manager adoption today
 
-- [Blockers](blockers.md)
+- [Blockers](docs/blockers.md)
 
 ## Team
 - [@andrew](http://github.com/andrew)
