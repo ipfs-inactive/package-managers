@@ -1,5 +1,7 @@
 # Cladistic tree of depths of integration
 
+**NOTE: A diagrammatic version of this tree, with additional notes, [can be found here](https://app.mural.co/t/protocollabs6957/m/protocollabs6957/1556717261380/7d93181e586fc3416ef88a42ba6d6df4b964c89b).**
+
 Preface: Understanding package managers -- let alone comprehensively enough to begin to describe the design spaces for growing them towards decentralizating and imagining the design space future ones -- is eternally tricky.  I've been hoping to get some more stuff rolling in terms of either short checklists, or terminology that we might define to help shortcut design discussions to clarity faster, and so on.  This is another attempt, and it certainly won't be an end-all, all-inclusive, etc; but it's a shot.
 
 This is a quick, fairly high-level outline of tactical implementation choices that one could imagine making when designing a package manager with _some_ level of IPFS integration.
