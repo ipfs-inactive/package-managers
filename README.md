@@ -18,7 +18,7 @@ Tuesdays at 3:30pm UTC / 4:30pm BST / 7:30am PST
 ## Goals for IPFS and package managers
 1. Get the package manager maintainer community excited about the benefits of using IPFS in their ecosystems
 2. Demonstrate to package consumers that IPFS is _holistically better_ than current centralized package managers (this may mean parity on some use cases, but significantly better on others)
-3. Increase awareness and engagement with IPFS (either to build new tools, or contribute directly) among package manager users / package publishers
+3. Increase awareness and engagement with IPFS (either to build new tools, or contribute directly) among package manager users/package publishers
 
 ## Non-goals
 - Become the sole centralized maintainers of large new package manager infrastructure
