@@ -30,3 +30,4 @@
 - [The Spack Package Manager: Bringing Order to HPC Software Chaos](https://tgamblin.github.io/pubs/spack-sc15.pdf)
 - [PubGrub: Next-Generation Version Solving](https://medium.com/@nex3/pubgrub-2fb6470504f)
 - [EasyBuild: Building Software With Ease](https://easybuilders.github.io/easybuild/files/easybuild-PyHPC-SC12_paper.pdf)
+- [Contour: A Practical System for Binary Transparency](https://smeiklej.com/files/cbt18.pdf)
