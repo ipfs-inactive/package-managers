@@ -15,7 +15,7 @@ Tuesdays at 3:30pm UTC / 4:30pm BST / 7:30am PST
 
 - IPFS is *very close* to becoming a great tool to solve real problems for package manager users, package publishers, and package manager maintainers! Plus, closing those gaps will make IPFS better for everyone while giving the IPFS community a yardstick for how to measure our success in the future.
 - Package manager maintainers and consumers are an important demographic to IPFS' future: developers who may not be IPFS pros yet, but who can get excited and engaged about IPFS in its current state, enabling everyone to help IPFS improve both on existing fronts and in problem areas we haven't yet envisioned
-- Introducing IPFS tooling and support can create direct value and impact in the overall package manager ecostystem by saving developers time and empowering resilient development experiences for developers using IPFS or IPFS-powered tools and registries.
+- Introducing IPFS tooling and support can create direct value and impact in the overall package manager ecosystem by saving developers time and empowering resilient development experiences for developers using IPFS or IPFS-powered tools and registries.
 
 ## Goals for IPFS and package managers
 1. Get the package manager maintainer community excited about the benefits of using IPFS in their ecosystems
