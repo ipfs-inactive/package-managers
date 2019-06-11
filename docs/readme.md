@@ -48,6 +48,9 @@ This decision tree provides a high-level outline of tactical implementation choi
 - [Cladistic tree for implementing IPFS in a package manager](tree.md)<br/>
 A high-level outline of tactical implementation choices one might need to make when designing a package manager with some level of IPFS integration. (Source document for the decision tree listed above.)
 
+- [Category-based approaches for implementing IPFS support](https://github.com/ipfs/package-managers/blob/master/docs/category-based-implementation.md)<br/>
+Some possible approaches for implementing IPFS support based on implementation category.
+
 ## Deeper dives
 
 - [Package indexing and linking](linking.md)<br/>
