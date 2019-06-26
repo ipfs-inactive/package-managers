@@ -185,6 +185,103 @@ This process can also fail in two ways:
 
 One way that decentralized publishing can help minimize these kinds of discovery problems is via validation on or before the publishing of indexes, ensuring that there are no unreachable parts of a dependency tree within an index, and then automatically advising on how to find and correct those errors if they are caught.
 
+Decentralized dependency resolution is tricky! For a decentralized package manager to work as effectively as a centralized package manager, a few implicit features need to become explicit:
+
+### Lockfile dependency data
+
+Many package managers have a concept of a lockfile that acts as a snapshot of a successfully resolved dependency tree for an application. This allows for the installation of the same set of dependencies without having to do any dependency resolution. Lockfiles also sometimes contain a cryptographic hash of every dependency to ensure that the downloaded contents matches exactly, not just matches by name/number.
+
+Unfortunately when a user comes to make a change to the applications dependency tree, either by adding a new dependency or updating the version of an existing dependency, the lockfile does not always contain enough information to be able to re-resolve the new dependency tree. In this situation, the program resolving the dependency tree must go in search of more information about available versions from the registries that it originally downloaded the information from.
+
+One such situation is where the newly added dependency requires an existing package in the lockfile but at a different version that previously resolved.
+
+The lockfile is created at the end of dependency resolution but rather than storing all the possibly acceptable versions, it only includes the minimal list, usually just the latest, as dictated by the resolution algorithm.
+
+Only storing a single acceptable version for each dependency means that when conflicts arise whilst adding/updating the dependency graph, external data needs to be fetched from the original indexes, which re-introduces the potential issues of registry index availability.
+
+### Availability of dependency metadata
+
+**Centralized registry**: when publishing a package, you can assume that the dependencies of that package are already available in that registry, that there is only one instance of each of those dependencies and that they are unlike to disappear.
+
+When a consumer depends on a single centralized registry, they have little choice but ensure that their application's dependency tree requirements are satisfied by the dependency metadata in the centralized registry, as they do not have the ability to easily change the registry data to match their needs.
+
+**Decentralized registry**: When a package is added to a package index, the publisher needs to ensure that the indexes for the dependencies of that package are also present in that index. This is because, unlike with a centralized registry, decentralized networks need to be resilient to parts being unavailable.
+
+If packages have dependencies across multiple registries, the availability of the full dependency graph requires 100% of those referenced registries to be accessible. In a fully decentralized world, it's not hard to imagine an application that depends on 100 packages from across 100 different registries (see go-ipfs for example which has 125 dependencies from unique git repositories). The likelihood of any one of those registries being unreachable increases linearly as the number of registries involved increases.
+
+Similarly, when working offline or within a private network (or on Mars!), makes most, if not all registries unavailable.
+
+Large companies are already well aware of the risk associated with depending on the availability of registries they don't control, opting instead to either vendor dependencies directly into their source code repositories or mirror dependencies into self-hosted registries such as artifactory or sonotype nexus.
+
+## Resilient resolution
+
+One potential solution to these problems is to record and store the all dependency metadata that went into resolving a dependency tree along with the lockfile as well as including that same data along side a package when a release is published.
+
+Most package managers currently need data from at least three places when adding/updating (and possibly even removing) dependencies on a software project:
+
+- the project's current resolved dependency tree
+- the package you wish to add to that dependency tree
+- one or more registries with version indexes for all dependencies for both the project's existing dependencies and the new package's possible dependency trees.
+
+Many centralized package managers combine those last two together
+
+To make this process more resilient to availability problems, both the project's current dependencies and the proposed package's dependencies could be stored as small indexes themselves, including lists of all acceptable versions of each dependency for both project and package. Rather than only storing the latest acceptable version for each dependency, if a list of all acceptable versions that were available at the time of resolution were stored that would remove the need to fetch more dependency data from a separate remote index, let's call these "Portable Packages".
+
+To see what makes a portable package interesting, let's first look at a regular package from a centralized package manager like rubygems or npm. A standard package is usually delivered as a tarball of source code and a manifest file.
+
+This manifest file contains metadata about the package, including it's name, description, license, author and more. It also includes a list of dependency requirements for the direct dependencies of that package, see for example [react 16.8.6's package.json](https://github.com/facebook/react/blob/72ca3c60e7c02a4e9ebc6218b144249c6b5639b9/packages/react/package.json):
+
+```
+{
+  "name": "react",
+  "description": "React is a JavaScript library for building user interfaces.",
+  "version": "16.8.6",
+  ...
+  "dependencies": {
+    "loose-envify": "^1.1.0",
+    "object-assign": "^4.1.1",
+    "prop-types": "^15.6.2",
+    "scheduler": "^0.14.0"
+  }
+}
+```
+
+When you add this release of react to your application, the manifest contains the first level of dependency requirements but does not contain enough information about each one of the declared dependencies to be to be usable during installation. Instead you need to go to a registry to request dependency data about each one of the dependencies recursively for all further dependencies that each of the first level requirements.
+
+A "portable package" on the other hand would be published along with a snapshot of the transitive dependency data that would be required to resolve the full dependency tree from the requirements specified in the manifest file.
+
+This data would be collected at the point of publishing, looking for all possible variants of the dependencies that will successfully resolve for the top level manifest and then encoding them into a package index, comprised of version indexes for each possible dependency.
+
+This effectively preloads the http requests that would need to made to a registry, so dependency resolution can be performed without needing to make any extra network requests.
+
+Similarly the same approach can be used along side the lockfile in an application, storing not just the latest resolved version number for each dependency, but a version index of possibly acceptable versions for the current dependency tree.
+
+Storing these extra acceptable versions again means that you can avoid the need to load extra dependency data when attempting to add a package to the dependency tree because the data is available locally. 
+
+Having that data available locally will provide a significant speedup to resolution for large dependency trees, SAT solving over http is very slow. Another potential speed improvement would come from the fact that the data available locally is prefiltered, it only contains data that would correctly satisfy a valid dependency tree.
+
+The act of adding a new "portable package" then becomes a task of testing to see if the package's index can be combined with the lockfile's index.
+
+There are also a number of possible different options for how much data to store, some package managers allow the use of multiple different dependency resolution strategies, so prefiltering dependency data may not be desirable for them.
+
+A hybrid approach could also be introduced, when adding a new package, if local dependency resolution fails then attempt to reach out to upstream registries to look for missing releases of dependencies that may break the conflict, adding those releases to the lockfile along with their indexes before attempting local dependency resolution again.
+
+### Unsolved problems
+
+Problems that decentralized publishing introduces that "portable packages" doesn't appear to help solve:
+
+Name conflicts - what happens when trying to merge two package indexes that contain the same named package or the when trying to merge two version indexes that contain the same numbered release?
+
+Trust and security - when adding a package that brings along a number of dependencies, how can you trust that those packages are secure?
+
+Order of updates - With a centralized registry, the order of applying dependency updates doesn't usually cause any issues because you do them all at once, would it be possible to add multiple "portable packages" at once to avoid situations where one order could result in a conflict where another may not?
+
+## Portable registries
+
+This thinking also has nice alignment with the [Portable Registries](https://github.com/ipfs/package-managers/blob/master/categories.md#portable-registries), Cocoapods and Homebrew both have support for pulling their registries locally and resolving dependencies offline
+
+These package managers also allow publishers to create their own registries, although the practice of including a packages dependencies within those registries is not once I've seen.
+
 ### Updates
 
 Existing software packages often have multiple releases published as bugs are found and fixed or functionality improvements added. When these new releases are published, end users of the package need a way of finding out that those new versions are available.
@@ -200,3 +297,5 @@ Whilst centralized registries make it very easy to have update information avail
 When it comes to decentralized publishing, and consuming those decentralized indexes, new tooling will need to be built to help encourage the use of standards and compatibility between indexes as well as extra services for aiding in some of the discovery problems that arise. Experimenting and finding out what those tools might look like would be a useful task to think about before starting to implement decentralized publishing.
 
 One other aspect that I've yet to explore is the idea that version and package index "owners" don't need to be humans, but could instead be software that does the heavy lifting of publishing and curating indexes together. This could open the door to multiple levels of identities of ownership and connection between different indexes, perhaps even federations of indexes that get combined together by groups or communities of end users.
+
+Some more thoughts on decentralized dependency resolution, will merge them into the main body as part of #53
