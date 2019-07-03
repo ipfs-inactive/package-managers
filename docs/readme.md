@@ -31,6 +31,9 @@ Directory of researched package managers by package format and grouped by usage 
 
 ## User research and analysis
 
+- [IPFS Camp 2019 Deep Dive: ranking pain points/benefits](https://github.com/ipfs/camp/tree/master/DEEP_DIVES/package-managers)
+Summary and artifacts from a deep dive held at the July 2019 IPFS Camp, focusing on ranking and analyzing the key package manager pain points and potential benefits determined during Q3/Q4 2019 roadmapping.
+
 - [Package manager outcomes, requirements and ideals statements](https://app.mural.co/t/protocollabs6957/m/protocollabs6957/1557168696127/577c9453a3c51199c8163cf0fe5701294e55f99b)<br/>
 Outcomes statements, requirements statements and ideals statements for IPFS in package managers, broken down by package consumers, package publishers, and package manager maintainers.
 
