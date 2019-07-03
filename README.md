@@ -66,7 +66,7 @@ There are still some [current issues with IPFS](docs/blockers.md) that are limit
 ## SIG members
 - [@andrew](http://github.com/andrew)
 - [@achingbrain](https://github.com/achingbrain)
-- [@jessicaschilling](https://github.com/jessicaschilling)
+- [@meiqimichelle](https://github.com/meiqimichelle)
 - [@momack2](https://github.com/momack2)
 
 ## License
