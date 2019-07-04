@@ -54,6 +54,11 @@ A high-level outline of tactical implementation choices one might need to make w
 - [Category-based approaches for implementing IPFS support](https://github.com/ipfs/package-managers/blob/master/docs/category-based-implementation.md)<br/>
 Some possible approaches for implementing IPFS support based on implementation category.
 
+## Specific implementations
+
+- [Republishing a project's npm dependencies to IPFS as a micro-registry](https://drive.google.com/file/d/1ExdN_t7xV2mEldjri5WXNDPU5hL4wa4q/view)<br/>
+Talk from @andrew at [IPFS Camp 2019](https://github.com/ipfs/camp/) on decentralized dependency resolution in NPM using the "micro-registries" approach in [ipfs-npm-republish](https://github.com/andrew/ipfs-npm-republish)
+
 ## Deeper dives
 
 - [Package indexing and linking](linking.md)<br/>
