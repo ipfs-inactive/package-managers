@@ -1,6 +1,6 @@
 # Package management document library
 
-The following items are materials created or collected by the IPFS Package Managers Special Interest Group in order to facilitate research and development and, as such, act as a living inventory and analysis of the present package manager landscape. If you're interested in learning more about package management in general, or integrating IPFS into current-state package managers in particular, you'll find a lot to chew on here.
+The following items are materials created or collected by the IPFS Package Managers Task Force in order to facilitate research and development and, as such, act as a living inventory and analysis of the present package manager landscape. If you're interested in learning more about package management in general, or integrating IPFS into current-state package managers in particular, you'll find a lot to chew on here.
 
 Is there something missing from this document library? Would you like to contribute your research or analysis? PRs are welcome!
 
@@ -21,7 +21,7 @@ Registry-based categorization model for how to approach integrating IPFS in pack
 ## The current package manager landscape
 
 - [Audience segmentation, pain points, and communications channels](https://app.mural.co/t/protocollabs6957/m/protocollabs6957/1557168696127/577c9453a3c51199c8163cf0fe5701294e55f99b)<br/>
-A cluster board collating pain points and communications channels for package consumers, package publishers, and package manager maintainers. 
+A cluster board collating pain points and communications channels for package consumers, package publishers, and package manager maintainers.
 
 - [Problems with current-state package managers](problems.md)<br/>
 Outline of problems that package publishers, package consumers and package manager maintainers currently experience when working with pre-IPFS package managers. (One of the source documents for the cluster board listed above.)
@@ -75,11 +75,10 @@ A list of published papers relevant to package manager research and software dep
 ## IPFS organizational and roadmap resources
 
 - [Package manager goals in the 2019 IPFS roadmap](https://github.com/ipfs/roadmap#-package-managers-d1-e5-i3)<br/>
-How enabling package managers is manifested as a primariy goal of the 2019 IPFS roadmap. 
+How enabling package managers is manifested as a primariy goal of the 2019 IPFS roadmap.
 
 - [Draft package manager roadmap](https://docs.google.com/document/d/1-HtUiRpMzYq9to56ShCGyCr-NCZ6TR49Zl-b5HHJdm0/edit#heading=h.5zpzsg32y0bx)<br/>
 Q1 2019 recommendations for future efforts (some items out of date from a roadmap perspective, but concepts are still valid)
 
 - [Open items tagged `package managers` in ipfs/notes](https://github.com/ipfs/notes/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22package+managers%22)<br/>
 Primarily for historical context — package manager-related issues in the [IPFS Collaborative Notebook for Research](https://github.com/ipfs/notes)
-

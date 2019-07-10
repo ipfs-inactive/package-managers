@@ -63,7 +63,7 @@ These package managers already have some form of IPFS integration underway. If y
 
 There are still some [current issues with IPFS](docs/blockers.md) that are limiting package manager adoption today.
 
-## SIG members
+## Task force members
 - [@andrew](http://github.com/andrew)
 - [@achingbrain](https://github.com/achingbrain)
 - [@meiqimichelle](https://github.com/meiqimichelle)
