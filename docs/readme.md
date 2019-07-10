@@ -1,6 +1,6 @@
 # Package management document library
 
-The following items are materials created or collected by the IPFS Package Managers Special Interest Group in order to facilitate research and development and, as such, act as a living inventory and analysis of the present package manager landscape. If you're interested in learning more about package management in general, or integrating IPFS into current-state package managers in particular, you'll find a lot to chew on here.
+The following items are materials created or collected by the IPFS Package Managers Task Force in order to facilitate research and development and, as such, act as a living inventory and analysis of the present package manager landscape. If you're interested in learning more about package management in general, or integrating IPFS into current-state package managers in particular, you'll find a lot to chew on here.
 
 Is there something missing from this document library? Would you like to contribute your research or analysis? PRs are welcome!
 
