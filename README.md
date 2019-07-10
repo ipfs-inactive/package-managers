@@ -35,6 +35,7 @@ There's a wealth of research, analysis and other tasty info to be found in the [
 - [Package manager categories](docs/categories.md)
 - [Problems with current-state package managers that IPFS can help solve](docs/problems.md)
 - [How IPFS concepts map to package manager concepts](docs/concepts.md)
+- [IPFS Package Manager Upgrade Paths slide deck](docs/ipfs-package-managers-upgrade-paths.pdf)
 - [Finding the best abstractions for talking about package managers](docs/abstractions.md)
 - [Tactical tree for implementing IPFS in a package manager](docs/tree.md)
 - [Package manager (pre-IPFS) pain points, sorted by user type](https://app.mural.co/t/protocollabs6957/m/protocollabs6957/1557168696127/577c9453a3c51199c8163cf0fe5701294e55f99b)
