@@ -77,6 +77,9 @@ A list of published papers relevant to package manager research and software dep
 - [Package manager goals in the 2019 IPFS roadmap](https://github.com/ipfs/roadmap#-package-managers-d1-e5-i3)<br/>
 How enabling package managers is manifested as a primariy goal of the 2019 IPFS roadmap.
 
+- [IPFS Package Manager Upgrade Paths](ipfs-package-managers-upgrade-paths.pdf)<br/>
+Slide deck from IPFS Team week presentation on package manager progress and roadmap
+
 - [Draft package manager roadmap](https://docs.google.com/document/d/1-HtUiRpMzYq9to56ShCGyCr-NCZ6TR49Zl-b5HHJdm0/edit#heading=h.5zpzsg32y0bx)<br/>
 Q1 2019 recommendations for future efforts (some items out of date from a roadmap perspective, but concepts are still valid)
 
