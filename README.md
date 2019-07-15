@@ -9,7 +9,9 @@ Tuesdays at 3:30pm UTC / 4:30pm BST / 7:30am PST
 
 📞 Zoom: https://protocol.zoom.us/j/5011724290
 
- :orange_book: Notes and recordings from previous sessions [can be found here](https://github.com/ipfs/package-managers/issues/1)
+:orange_book: Notes and recordings from previous sessions [can be found here](https://github.com/ipfs/package-managers/issues/1)
+ 
+:heavy_check_mark: Zenhub [task board](https://app.zenhub.com/workspaces/package-managers-5d23270c7302a14dfba9d8c4/board?repos=20312497,39592840,59225160,69641599,170355990,41456203,55763542,79474042)
 
 ## Why are package managers important to the future of IPFS?
 
