@@ -1,4 +1,4 @@
-![Package Managers Task Force](https://user-images.githubusercontent.com/4827522/61231640-60005e00-a6e1-11e9-872e-950de6310bc3.png "Package Managers Task Force")
+<img width="500" alt="Package Managers Task Force" src="https://user-images.githubusercontent.com/4827522/61231640-60005e00-a6e1-11e9-872e-950de6310bc3.png">
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
