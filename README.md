@@ -1,4 +1,4 @@
-![Package Managers Special Interest Group](https://github.com/ipfs/package-managers/blob/master/packagemanagers-sig-header.png "Package Managers Special Interest Group")
+![Package Managers Task Force](https://github.com/ipfs/package-managers/blob/master/packagemanagers-sig-header.png "Package Managers Task Force")
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
