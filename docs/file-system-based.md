@@ -39,6 +39,103 @@ All of the popular linux package managers use regular rsync runs for mirroring, 
 
 TODO: Summarise importing details from [#18](https://github.com/ipfs/package-managers/issues/18) and [#19](https://github.com/ipfs/package-managers/issues/19)
 
+### Setup
+
+rsync from a nearby mirror to a local directory (`/data/apt` for example)
+
+For apt, this directory was approximately 1.2TB in total size after rsync completed which took approximately 3.5 hours.
+
+Total directory count: 58,765
+Total files count: 912,830
+
+### Experiment 1
+
+n.b. Tested using go-ipfs 0.4.19
+
+1. set up the ipfs repo, set config (based on [ipfs/notes/issues/212](https://github.com/ipfs/notes/issues/212)) and start the daemon running:
+
+```shell
+$ export IPFS_PATH=/data/.ipfs
+$ export IPFS_FD_MAX=4096
+
+$ ipfs init
+
+$ ipfs config Reprovider.Interval "0"
+$ ipfs config --json Datastore.NoSync true
+$ ipfs config --json Experimental.ShardingEnabled true
+$ ipfs config --json Experimental.FilestoreEnabled true
+
+$ ipfs daemon
+```
+
+2. add the directory to IPFS
+
+```shell
+$ time ipfs add -r --progress --offline --fscache --quieter --raw-leaves --nocopy /data/apt
+```
+
+This took approximately 12 hours to complete successfully
+
+3. Inspect the ipfs repo stats:
+
+```shell
+$ ipfs stats repo --human
+```
+
+```
+NumObjects:       5824574
+RepoSize (MiB):   1086
+StorageMax (MiB): 9536
+RepoPath:         /data/.ipfs
+Version:          fs-repo@7
+```
+
+### Experiment 2
+
+n.b. Tested using go-ipfs 0.4.19
+
+1. set up the ipfs repo, set config (based on [ipfs/notes/issues/212](https://github.com/ipfs/notes/issues/212)) and start the daemon running:
+
+```shell
+$ export IPFS_PATH=/data/.ipfs
+$ export IPFS_FD_MAX=4096
+
+$ ipfs init --profile=badgerds
+
+$ ipfs config Reprovider.Interval "0"
+$ ipfs config --json Datastore.NoSync true
+$ ipfs config --json Experimental.ShardingEnabled true
+$ ipfs config --json Experimental.FilestoreEnabled true
+
+$ ipfs daemon
+```
+
+2. add the directory to IPFS
+
+```shell
+$ time ipfs add -r --progress --offline --fscache --quieter --raw-leaves --nocopy /data/apt
+```
+
+This took approximately 18 hours to complete successfully
+
+3. Inspect the ipfs repo stats:
+
+```shell
+$ ipfs stats repo --human
+```
+
+```
+NumObjects:       5824574
+RepoSize (MiB):   1825
+StorageMax (MiB): 9536
+RepoPath:         /data/.ipfs
+Version:          fs-repo@7
+```
+
+## Experiment 3
+
+
+
 ## Updating
 
 TODO: Summarise updating details from [#18](https://github.com/ipfs/package-managers/issues/18) and [#19](https://github.com/ipfs/package-managers/issues/19)
@@ -47,7 +144,7 @@ TODO: Summarise updating details from [#18](https://github.com/ipfs/package-mana
 
 TODO: Summarise installation details from [#18](https://github.com/ipfs/package-managers/issues/18) and [#19](https://github.com/ipfs/package-managers/issues/19)
 
-## Flags
+## Flags and config
 
 TODO: Explain that when different flags are used whilst importing files into IPFS that the hashes produced may be different, we want the default behaviour for people setting up mirrors to use the best flags and to all use the same flags, likely via a package manager specific profile.
 
