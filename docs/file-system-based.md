@@ -4,7 +4,18 @@ WIP
 
 ## Definition
 
-## List of FSB package managers
+Clients are designed to be used with multiple primary registries, users have choices of multiple registries to publish to and mirrors are frequently used. Examples: Maven, apt, rpm, ports
+
+Many system package managers (APT, apk, RPM, ports), plus some of the older language package managers (Maven, CPAN, CRAN) are literally a network attached folder full of files and other folders, often exposed over http, ftp etc.
+
+Metadata is also stored as files so everything is quite self-contained and easily mirrored using rsync.
+
+Mirroring these registries into MFS and adding the root CID to dnslink/ipns then rsyncing updates on a regular basis along with transport plugins like https://github.com/JaquerEspeis/apt-transport-ipfs
+
+- Performance of adding/update large registries to MFS takes many hours, causing mirrors to lag behind the source
+- updating indexes files like Packages.gz in MFS isn't supported with the filestore
+
+## List of File System Based Linux package managers
 
 Below is a table of the most widespread linux distributions and their main package repositories, including size, update frequency, methods of mirroring, and lists of mirrors, with the aim of looking for repeating patterns that we can focus on supporting.
 
@@ -29,6 +40,29 @@ All of the popular linux package managers use regular rsync runs for mirroring, 
 ## End user installation
 
 ## Flags
+
+## Blockers
+
+Issues with IPFS that are limiting FSB package manager adoption today
+
+### Requires 2x disk space for mirroring
+
+Filestore expects files to be immutable once added, so rsyncing updates to existing files [causes errors](https://github.com/protocol/package-managers/issues/18#issuecomment-471365124), one workaround is to not use the filestore but that requires copying the entire mirror directory into `.ipfs`.
+
+### No easy way to directly add a directory to MFS with go-ipfs
+
+Adding a directory of files to MFS means calling out to `ipfs files write` for every file, ideally there should be one command to write a directory of files to MFS.
+
+Alternative approach may be to mount MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse)
+
+### Updating rolling changes requires rehashing all files
+
+If there is a regular cron job downloading updates to a mirror with rsync, there's currently no easy way to only re-add the files that have been added/changed/removed without rehashing every file in the whole mirror directory.
+
+Mounting MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse) and rsyncing directly onto fuse may be one approach.
+
+Alternatively there could be a ipfs rysnc command line tool that could talk directly with rsync server protocol.
+
 
 ## References
 
