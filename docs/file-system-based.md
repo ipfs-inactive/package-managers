@@ -2,7 +2,7 @@
 
 ## OKR
 
-TODO: add details about current focus for Q3 2019 on FSBs
+TODO: add details about current focus for [Q3 2019](https://github.com/ipfs/package-managers/issues/69) on FSBs
 
 ## Definition
 
@@ -73,10 +73,8 @@ Mounting MFS as a fuse filesystem (ala https://github.com/tableflip/ipfs-fuse) a
 
 Alternatively there could be a ipfs rysnc command line tool that could talk directly with rsync server protocol.
 
-
 ## References
 
-- [Q3 OKRs](https://github.com/ipfs/package-managers/issues/69)
 - [Improve performance of adding package-manager sized directories to go-ipfs](https://github.com/ipfs/package-managers/issues/77)
 - [add an experimental version of `mount` to go-ipfs](https://github.com/ipfs/package-managers/issues/74)
 - [unixfs v2](https://github.com/ipfs/roadmap/issues/19)
