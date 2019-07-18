@@ -21,4 +21,4 @@ Categorization: System level, Portable Registry, Git Based
 
 ## Existing IPFS support
 
-- https://github.com/protocol/package-managers/issues/12
+- https://github.com/ipfs/package-managers/issues/12

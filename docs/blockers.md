@@ -6,7 +6,7 @@ Issues with IPFS that are limiting package manager adoption today
 
 ### Requires 2x disk space for mirroring
 
-Filestore expects files to be immutable once added, so rsyncing updates to existing files [causes errors](https://github.com/protocol/package-managers/issues/18#issuecomment-471365124), one workaround is to not use the filestore but that requires copying the entire mirror directory into `.ipfs`.
+Filestore expects files to be immutable once added, so rsyncing updates to existing files [causes errors](https://github.com/ipfs/package-managers/issues/18#issuecomment-471365124), one workaround is to not use the filestore but that requires copying the entire mirror directory into `.ipfs`.
 
 ### No easy way to directly add a directory to MFS with go-ipfs
 
