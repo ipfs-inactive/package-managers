@@ -20,3 +20,4 @@ Categorization: System level, Multi-Registry, File-system Based
 ## Existing IPFS support
 
 - https://github.com/JaquerEspeis/apt-transport-ipfs
+- https://github.com/ipfs/ipfs-cluster/issues/844
