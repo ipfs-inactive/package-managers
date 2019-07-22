@@ -50,7 +50,10 @@ Total files count: 912,830
 
 ### Experiment 1
 
-n.b. Tested using go-ipfs 0.4.19
+<details><summary>Expand for details</summary>
+<p>
+
+Tested using go-ipfs 0.4.19
 
 1. set up the ipfs repo, set config (based on [ipfs/notes/issues/212](https://github.com/ipfs/notes/issues/212)) and start the daemon running:
 
@@ -90,9 +93,15 @@ RepoPath:         /data/.ipfs
 Version:          fs-repo@7
 ```
 
+</p>
+</details>
+
 ### Experiment 2
 
-n.b. Tested using go-ipfs 0.4.19
+<details><summary>Expand for details</summary>
+<p>
+
+Tested using go-ipfs 0.4.19
 
 1. set up the ipfs repo, set config (based on [ipfs/notes/issues/212](https://github.com/ipfs/notes/issues/212)) and start the daemon running:
 
@@ -132,13 +141,74 @@ RepoPath:         /data/.ipfs
 Version:          fs-repo@7
 ```
 
+</p>
+</details>
+
 ## Experiment 3
+
+<details><summary>Expand for details</summary>
+<p>
+
+Tested using go-ipfs 0.4.19
+
+1. set up the ipfs repo, set config (based on [ipfs/notes/issues/212](https://github.com/ipfs/notes/issues/212)) and start the daemon running:
+
+```shell
+$ export IPFS_PATH=/data/.ipfs
+$ export IPFS_FD_MAX=4096
+
+$ ipfs init
+
+$ ipfs config Reprovider.Interval "0"
+$ ipfs config --json Datastore.NoSync true
+$ ipfs config --json Experimental.ShardingEnabled true
+
+$ ipfs daemon
+```
+
+2. add the directory to IPFS:
+
+```shell
+$ ipfs add -r --progress --offline --quieter --raw-leaves /data/apt
+```
+This took approximately 36 hours to complete successfully
+
+</p>
+</details>
 
 
 
 ## Updating
 
-TODO: Summarise updating details from [#18](https://github.com/ipfs/package-managers/issues/18) and [#19](https://github.com/ipfs/package-managers/issues/19)
+When the upstream repository is updated, mirrors need to download the files that have been updated and add them to IPFS.
+
+## Experiment 1
+
+When attempting to add the updated files with `--nocopy` (Filestore), you always encounter an error. This is due to the [current behaviour](https://github.com/ipfs/go-ipfs/issues/5734#issuecomment-492931782) of the Filestore, which expects that once a file has been added, it will not change.
+
+This means that for our test case of rsyncing updates from upstream and adding to IPFS can't currently use `--nocopy`
+
+Related issue: https://github.com/ipfs/go-ipfs/issues/4603
+
+<details><summary>Expand for details</summary>
+<p>
+
+```
+$ ipfs add -r --progress --offline --fscache --quieter --raw-leaves --nocopy /data/apt
+badger 2019/03/10 13:41:56 INFO: All 8 tables opened in 1.692s                                                                                  badger 2019/03/10 13:41:56 INFO: Replaying file id: 7 at offset: 43557796                                                                       badger 2019/03/10 13:41:56 INFO: Replay took: 12.022µs                                                                                           1.07 TiB / 1.18 TiB [============================= 1.18 TiB / 1.18 TiB [==================================================================================================================================] 100.00%^[[B^[[B^[[B^[[B^[[BQmQsQ9mtDXu5NTeXpinXuPUjy3nMbCi5rLfrycbf9rDdvh
+Error: failed to get block for zb2rhjn4bxfqtxZrzfNYyQgm1EvKHcRket2TbdR6Y2L46zax3: data in file did not match. apt/dists/disco/universe/debian-installer/binary-i386/Packages.gz offset 0
+badger 2019/03/10 17:02:14 INFO: Storing value log head: {Fid:7 Len:48 Offset:56345495}
+badger 2019/03/10 17:02:17 INFO: Force compaction on level 0 done
+
+real    200m23.176s
+user    101m42.635s
+sys     12m36.793s
+```
+
+</p>
+</details>
+
+## Experiment 2
 
 ## End user installation
 
