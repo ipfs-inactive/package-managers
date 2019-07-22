@@ -184,7 +184,7 @@ When the upstream repository is updated, mirrors need to download the files that
 
 ## Experiment 1
 
-When attempting to add the updated files with `--nocopy` (Filestore), you always encounter an error. This is due to the [current behaviour](https://github.com/ipfs/go-ipfs/issues/5734#issuecomment-492931782) of the Filestore, which expects that once a file has been added, it will not change.
+When attempting to add the updated files with `--nocopy` and `--fscache` (Filestore), you always encounter an error. This is due to the [current behaviour](https://github.com/ipfs/go-ipfs/issues/5734#issuecomment-492931782) of the Filestore, which expects that once a file has been added, it will not change.
 
 This means that for our test case of rsyncing updates from upstream and adding to IPFS can't currently use `--nocopy`
 
@@ -217,6 +217,44 @@ TODO: Summarise installation details from [#18](https://github.com/ipfs/package-
 ## Flags and config
 
 TODO: Explain that when different flags are used whilst importing files into IPFS that the hashes produced may be different, we want the default behaviour for people setting up mirrors to use the best flags and to all use the same flags, likely via a package manager specific profile.
+
+### `ipfs add` flags
+
+`-r`: recursive - required to add a directory and it's contents to IPFS (perhaps should be a pacakge-manager profile default).
+
+`--fscache`: Check the filestore for pre-existing blocks. Improves performance if using the filestore (not an option for FSBPMs at the moment), doesn't do anything if not using the filestore (requires `$ ipfs config --json Datastore.NoSync true` before use).
+
+`--cid-version`: CID version. Defaults to 0 unless an option that depends on CIDv1 is passed (perhaps `--cid-version=1` should be a pacakge-manager profile default).
+
+`--nocopy`: Add the file using filestore. (requires `$ ipfs config --json Datastore.NoSync true` before use).
+
+`--raw-leaves`: Use raw blocks for leaf nodes, enabled by default if using `--nocopy` or `--cid-version=1` (perhaps should be a pacakge-manager profile default).
+
+`--hidden`: Include files that are hidden. Only takes effect on recursive add (`-r`).
+
+`--trickle`: Use trickle-dag format for dag generation.
+
+`--wrap-with-directory`: Wrap files with a directory object. (not required when adding a directory)
+
+`--chunker`:  Chunking algorithm, size-[bytes] or rabin-[min]-[avg]-[max].
+
+`--hash`: Hash function to use. Implies CIDv1 if not sha2-256.
+
+`--inline`: Inline small blocks into CIDs (perhaps should be a pacakge-manager profile default).
+
+`--inline-limit`:  Maximum block size to inline.
+
+### `ipfs files write` flags
+
+`--create`: Create the file if it does not exist (perhaps should be a pacakge-manager profile default).
+
+`--parents`: Make parent directories as needed (perhaps should be a pacakge-manager profile default).
+
+`--raw-leaves`: Use raw blocks for leaf nodes, enabled by default if using `--cid-version=1` (perhaps should be a pacakge-manager profile default).
+
+`--cid-version`: CID version. Defaults to 0 unless an option that depends on CIDv1 is passed (perhaps `--cid-version=1` should be a pacakge-manager profile default).
+
+`--hash`: Hash function to use. Implies CIDv1 if not sha2-256.
 
 ## Blockers
 
