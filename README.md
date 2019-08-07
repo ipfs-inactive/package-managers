@@ -73,7 +73,6 @@ There are still some [current issues with IPFS](docs/blockers.md) that are limit
 - [@dirkmc](https://github.com/dirkmc)
 - [@djdv](https://github.com/djdv)
 - [@meiqimichelle](https://github.com/meiqimichelle)
-- [@michaelavila](https://github.com/michaelavila)
 
 ## License
 
