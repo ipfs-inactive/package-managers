@@ -48,7 +48,9 @@
 - (2016) [On the topology of package dependency networks: a comparison of three programming language ecosystems](https://dl.acm.org/citation.cfm?id=3003382)
 - (2017) [Structure and Evolution of Package Dependency Networks](http://pure.tudelft.nl/ws/files/41902509/ecosystems_evolution.pdf)
 - (2017) [An Empirical Comparison of Developer Retention in the RubyGems and npm Software Ecosystems](https://arxiv.org/pdf/1708.02618)
+- (2017) [Culture and Breaking Change: A Survey of Values and Practices in 18 Open Source Software Ecosystems](https://figshare.com/articles/Culture_and_Breaking_Change_A_Survey_of_Values_and_Practices_in_18_Open_Source_Software_Ecosystems/5108716)
 - (2017) [An Empirical Comparison of Dependency Network Evolution in Seven Software Packaging Ecosystems](https://arxiv.org/pdf/1710.04936)
+- (2018) [A generalized model for visualizing library popularity, adoption, and diffusion within a software ecosystem ](library.naist.jp/dspace/bitstream/handle/10061/13128/04_RaulaSANER2018.pdf)
 - (2019) [Dependency versioning in the wild](http://kblincoe.github.io/publications/2019_MSR_versioning.pdf)
 - (2019) [What do package dependencies tell us about semantic versioning?](https://ieeexplore.ieee.org/abstract/document/8721084)
 
@@ -64,7 +66,8 @@
 
 ### Papers on the Java / Maven ecosystem ###
 
-- (2017) [Do developers update their library dependencies?](http://sel.ist.osaka-u.ac.jp/lab-db/betuzuri/archive/1082/1082_2.pdf)
+- (2017) [An Exploratory Study on Library Aging by Monitoring Client Usage in a Software Ecosystem](http://ouniali.github.io/papers/SANER2017-LibraryAging.pdf)
+- (2018) [Do developers update their library dependencies?](http://sel.ist.osaka-u.ac.jp/lab-db/betuzuri/archive/1082/1082_2.pdf)
 - (2019) [The emergence of software diversity in maven central](https://arxiv.org/pdf/1903.05394)
 
 ### Papers on the Javascript / Node.js / npm ecosystem ###
@@ -73,6 +76,7 @@
 - (2017) [Why Do Developers Use Trivial Packages? An Empirical Case Study on npm](https://www.researchgate.net/profile/Suhaib_Mujahid/publication/318868791_Why_do_developers_use_trivial_packages_an_empirical_case_study_on_npm/links/59c1295d0f7e9b21a826515b/Why-do-developers-use-trivial-packages-an-empirical-case-study-on-npm.pdf)
 - (2018) [On the evolution of technical lag in the npm package dependency network](https://arxiv.org/pdf/1806.01545)
 - (2018) [On the impact of security vulnerabilities in the npm package dependency network](https://dl.acm.org/ft_gateway.cfm?id=3196401&type=pdf)
+- (2018) [Towards Smoother Library Migrations: A Look at Vulnerable Dependency Migrations at Function Level for npm JavaScript Packages](https://ieeexplore.ieee.org/abstract/document/8530065)
 - (2019) [On the diversity of software package popularity metrics: An empirical study of npm](https://arxiv.org/pdf/1901.04217)
 - (2019) [Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://arxiv.org/pdf/1902.09217)
 
