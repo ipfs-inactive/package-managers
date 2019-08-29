@@ -50,7 +50,7 @@
 - (2017) [An Empirical Comparison of Developer Retention in the RubyGems and npm Software Ecosystems](https://arxiv.org/pdf/1708.02618)
 - (2017) [Culture and Breaking Change: A Survey of Values and Practices in 18 Open Source Software Ecosystems](https://figshare.com/articles/Culture_and_Breaking_Change_A_Survey_of_Values_and_Practices_in_18_Open_Source_Software_Ecosystems/5108716)
 - (2017) [An Empirical Comparison of Dependency Network Evolution in Seven Software Packaging Ecosystems](https://arxiv.org/pdf/1710.04936)
-- (2018) [A generalized model for visualizing library popularity, adoption, and diffusion within a software ecosystem ](library.naist.jp/dspace/bitstream/handle/10061/13128/04_RaulaSANER2018.pdf)
+- (2018) [A generalized model for visualizing library popularity, adoption, and diffusion within a software ecosystem ](http://library.naist.jp/dspace/bitstream/handle/10061/13128/04_RaulaSANER2018.pdf)
 - (2019) [Dependency versioning in the wild](http://kblincoe.github.io/publications/2019_MSR_versioning.pdf)
 - (2019) [What do package dependencies tell us about semantic versioning?](https://ieeexplore.ieee.org/abstract/document/8721084)
 
