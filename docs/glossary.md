@@ -5,7 +5,7 @@ A glossary of terms relating to package management.
 ## Application
   The end-user software project that utilises other software projects as dependencies but is not something that can be directly depended upon or published as a package.
 
-## Client
+## Client (or just "package manager")
   The locally installed software for installing and managing packages, usually provided as a command line interface. Often communicates with one or more registries to find package and release metadata and to download releases.
 
 ## Dependency
@@ -20,14 +20,24 @@ A glossary of terms relating to package management.
 ## Dependency Specifier
   A format used to install packages from a Registry Index. For example, “foo>=1.3” is a dependency specifier, where “foo” is the project name, and the “>=1.3” portion is the Version Specifier
 
+## Index
+  A central location (usually a webpage) to search for available Packages.
+  Usually tightly coupled with the underlying package Registry.
+
 ## Lockfile
   The file where a successfully resolved dependency tree is recorded so that it can be recreated at a later date.
 
 ## Manifest
   The file where a package's required dependencies are declared, often with version specifiers.
+  Other information that can be specified in a manifest are author names, homepage, bug tracker URL, license, version number, and build procedure.
 
 ## Package
   An instance of a Project that has been published to a package manager. Packages have unique names, which are registered on a registry. Each project will then contain one or more Releases, and each release may comprise one or more artifacts.
+
+## Package Repository
+  A synonym for package Registry that is often used when the Registry is file-system based, or when its information is stored in a single git repository.
+  Sometimes also called a package archive, or even [software repository](https://en.wikipedia.org/wiki/Software_repository).
+  Should not be confused with Source Repository.
 
 ## Project
   A library, framework, script, module, plugin, application, or collection of data or other resources, or some combination thereof that is intended to be packaged into a artifact.
@@ -37,7 +47,7 @@ A glossary of terms relating to package management.
  There is a strong convention to name a project after the name of the package that is imported to run that project. However, this doesn’t have to hold true. It’s possible to install a artifact from the project ‘foo’ and have it provide a package importable only as ‘bar’.
 
 ## Registry
-  A database of projects and their releases, provides information to a dependency resolution strategy. Often paired with a web interface for searching and viewing information on various packages.
+  A database of projects and their releases, provides information to a dependency resolution strategy. Often paired with a web interface for searching and viewing information on various packages (an Index).
 
 ## Release
   A snapshot of a Project at a particular point in time, denoted by a version identifier.
