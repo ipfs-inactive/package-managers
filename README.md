@@ -68,11 +68,10 @@ There are still some [current issues with IPFS](docs/blockers.md) that are limit
 
 ## Task force members
 - [@achingbrain](https://github.com/achingbrain)
-- [@andrew](https://github.com/andrew)
 - [@aschmahmann](https://github.com/aschmahmann)
 - [@dirkmc](https://github.com/dirkmc)
 - [@djdv](https://github.com/djdv)
-- [@meiqimichelle](https://github.com/meiqimichelle)
+- [@stebalien](https://github.com/Stebalien)
 
 ## License
 
