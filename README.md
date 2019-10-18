@@ -66,6 +66,10 @@ These package managers already have some form of IPFS integration underway. If y
 
 There are still some [current issues with IPFS](docs/blockers.md) that are limiting package manager adoption today.
 
+## Package Manager Maintainer Service Blueprint
+[Video walkthrough](https://drive.google.com/a/protocol.ai/file/d/1CJUTzuN7QcsA0QBKMNEcTtNBdNps7uyH/view?usp=sharing)
+![Screen Shot 2019-10-17 at 10 54 44 PM](https://user-images.githubusercontent.com/618519/67069330-94951300-f131-11e9-8530-9240a637bdca.png)
+
 ## Task force members
 - [@achingbrain](https://github.com/achingbrain)
 - [@aschmahmann](https://github.com/aschmahmann)
