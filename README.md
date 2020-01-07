@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs--package--managers-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs-package-managers)
 
-## Status
+## Status: INACTIVE
 
 In 2019, this working group focused on making IPFS a usable platform for package managers. The working group has been spun down in favor of focusing on improving the core protocol but this repo still contains quite a few important learnings and experiments.
 
