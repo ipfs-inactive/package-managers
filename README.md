@@ -4,14 +4,19 @@
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs--package--managers-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs-package-managers)
 
-## Join our weekly sync (all welcome!)
-Tuesdays at 3:15pm UTC
+## Status
 
-📞 Zoom: https://protocol.zoom.us/j/602589940
+In 2019, this working group focused on making IPFS a usable platform for package managers. The working group has been spun down in favor of focusing on improving the core protocol but this repo still contains quite a few important learnings and experiments.
 
-:orange_book: Notes and recordings from previous syncs [are in Issue #1043](https://github.com/ipfs/team-mgmt/issues/1043)
- 
-:heavy_check_mark: To see what's in progress, either visit our Zenhub [task board](https://app.zenhub.com/workspaces/package-managers-5d23270c7302a14dfba9d8c4/board?repos=20312497,39592840,59225160,69641599,170355990,41456203,55763542,79474042) or filter issues in this repo by the [`Status: In progress` label](https://github.com/ipfs/package-managers/issues?q=is%3Aopen+is%3Aissue+label%3A%22Status%3A+In+progress%22)
+In this group, we:
+
+* Surveyed known package managers - https://github.com/ipfs/package-managers/tree/master/package-managers
+* Experimented with running package managers on IPFS to understand the relevent pain-points: https://github.com/ipfs/package-managers/issues?q=is%3Aissue+is%3Aopen+label%3A%22Type%3A+Experiment%22.
+* Did a ton of user research - https://github.com/ipfs/package-managers/tree/master/docs
+* Improved bitswap performance (in go-ipfs) - https://github.com/ipfs/go-bitswap/pull/189
+* More than doubled initial ipfs add performance (in go-ipfs) - https://github.com/ipfs/go-ipfs/issues/6775
+* Added file modes and modification time support to the IPFS spec - https://github.com/ipfs/specs/blob/master/UNIXFS.md#metadata
+* Explored ways to improve how go-ipfs mounts /ipfs and /ipns as a local filesystems - https://github.com/ipfs/go-ipfs/pull/6612
 
 ## Why are package managers important to the future of IPFS?
 
@@ -69,13 +74,6 @@ There are still some [current issues with IPFS](docs/blockers.md) that are limit
 ## Package Manager Maintainer Service Blueprint
 [Video walkthrough](https://drive.google.com/a/protocol.ai/file/d/1CJUTzuN7QcsA0QBKMNEcTtNBdNps7uyH/view?usp=sharing)
 ![Screen Shot 2019-10-17 at 10 54 44 PM](https://user-images.githubusercontent.com/618519/67069330-94951300-f131-11e9-8530-9240a637bdca.png)
-
-## Task force members
-- [@achingbrain](https://github.com/achingbrain)
-- [@aschmahmann](https://github.com/aschmahmann)
-- [@dirkmc](https://github.com/dirkmc)
-- [@djdv](https://github.com/djdv)
-- [@stebalien](https://github.com/Stebalien)
 
 ## License
 
