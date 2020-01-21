@@ -7,7 +7,7 @@
   Usually similar to Centralized Registry but with one standout feature, users keep a local copy of the whole registry, often as a git repository, which is regularly synced by the users. Examples: Homebrew, Cocoapods, Cargo, Spack
 
 ## Multi-Registry
-  Clients are designed to be used with multiple primary registries, users have choices of multiple registries to publish to and mirrors are frequently used. Examples: Maven, apt, rpm, pacman
+  Clients are designed to be used with multiple primary registries, users have choices of multiple registries to publish to and mirrors are frequently used. Examples: Maven, apt, rpm, ports
 
 ## Registry-less
   There is no concept of a registry or namespace where packages are published to, clients directly link to tarballs or git repositories on any urls, resolved with DNS. Examples: Go, carthage, swiftpm
@@ -18,7 +18,7 @@
 
 This maps closely to the Multi-Registry category.
 
-Many system package managers (APT, apk, RPM pacman, portage), plus some of the older language package managers (Maven, CPAN, CRAN) are literally a network attached folder full of files and other folders, often exposed over http, ftp etc.
+Many system package managers (APT, apk, RPM, ports), plus some of the older language package managers (Maven, CPAN, CRAN) are literally a network attached folder full of files and other folders, often exposed over http, ftp etc.
 
 Metadata is also stored as files so everything is quite self-contained and easily mirrored using rsync.
 
