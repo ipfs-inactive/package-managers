@@ -1,3 +1,20 @@
+## This repository has been archived!
+
+*This IPFS-related repository has been archived, and all issues are therefore frozen*. If you want to ask a question or open/continue a discussion related to this repo, please visit the [official IPFS forums](https://discuss.ipfs.io).
+
+We archive repos for one or more of the following reasons:
+
+- Code or content is unmaintained, and therefore might be broken
+- Content is outdated, and therefore may mislead readers
+- Code or content evolved into something else and/or has lived on in a different place
+- The repository or project is not active in general
+
+Please note that in order to keep the primary IPFS GitHub org tidy, most archived repos are moved into the [ipfs-inactive](https://github.com/ipfs-inactive) org.
+
+If you feel this repo should **not** be archived (or portions of it should be moved to a non-archived repo), please [reach out](https://ipfs.io/help) and let us know. Archiving can always be reversed if needed.
+
+---
+   
 <img width="800" alt="Package Managers Task Force" src="https://user-images.githubusercontent.com/4827522/61231640-60005e00-a6e1-11e9-872e-950de6310bc3.png">
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
